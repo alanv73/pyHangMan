@@ -4,7 +4,7 @@ import os
 
 
 def show_title():
-    os.system('cls')
+    os.system('clear') if os.name == 'posix' else os.system('cls')
     print("\n\t*******************************")
     print("\t******** H A N G M A N ********")
     print("\t*******************************")
